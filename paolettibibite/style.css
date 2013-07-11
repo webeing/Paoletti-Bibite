@@ -1,0 +1,29 @@
+/*
+Theme Name: Paoletti bibite
+Theme URI: http://paolettibibite.it/
+Author: Webeing.net
+Author URI: http://webeing.net/
+Description: Sito ufficiale dell'azienda Paoletti che opera da circa 100 anni nel settore della produzione di bibite gassate.  Bibite tradizionali, buone come quelle di una volta, grazie alle preziose ricette custodite di generazione in generazione dalla nostra famiglia con grande gelosia, passione ed amore.
+Version: 1.0
+Tags:
+
+This theme, like WordPress, is create from the starter theme http://underscores.me/.
+paolettibibite is based on Underscores http://underscores.me/, (C) 2012-2013 Automattic, Inc.
+
+Resetting and rebuilding styles have been helped along thanks to the fine work of
+Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
+along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+and Blueprint http://www.blueprintcss.org/
+*/
+
+
+/* IMPORT */
+
+@import url("css/normalize.css");
+@import url("css/grid.css");
+@import url("css/animate.css");
+@import url("css/paoletti-style.css");
+@import url("script/jquery.bxslider.css");
+
+@import url(http://fonts.googleapis.com/css?family=EB+Garamond);
+@import url(http://fonts.googleapis.com/css?family=Sail);

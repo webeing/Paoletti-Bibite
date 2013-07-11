@@ -1,0 +1,615 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Paoletti bibite v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-07-11 00:20:46+0000\n"
+"Last-Translator: webeing <info@webeing.net>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: ITALY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:15
+#@ paolettibibite
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:19
+#@ paolettibibite
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr ""
+
+#: 404.php:27
+#@ paolettibibite
+msgid "Most Used Categories"
+msgstr ""
+
+#. translators: %1$s: smiley
+#: 404.php:44
+#, php-format
+#@ paolettibibite
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: archive.php:21
+#, php-format
+#@ paolettibibite
+msgid "Category Archives: %s"
+msgstr ""
+
+#: archive.php:24
+#, php-format
+#@ paolettibibite
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: archive.php:31
+#, php-format
+#@ paolettibibite
+msgid "Author Archives: %s"
+msgstr ""
+
+#: archive.php:39
+#, php-format
+#@ paolettibibite
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: archive.php:42
+#, php-format
+#@ paolettibibite
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: archive.php:45
+#, php-format
+#@ paolettibibite
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: archive.php:48
+#@ paolettibibite
+msgid "Asides"
+msgstr ""
+
+#: archive.php:51
+#@ paolettibibite
+msgid "Images"
+msgstr ""
+
+#: archive.php:54
+#@ paolettibibite
+msgid "Videos"
+msgstr ""
+
+#: archive.php:57
+#@ paolettibibite
+msgid "Quotes"
+msgstr ""
+
+#: archive.php:60
+#@ paolettibibite
+msgid "Links"
+msgstr ""
+
+#: archive.php:63
+#: sidebar.php:17
+#@ paolettibibite
+msgid "Archives"
+msgstr ""
+
+#: comments.php:29
+#, php-format
+#@ paolettibibite
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:36
+#: comments.php:56
+#@ paolettibibite
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:37
+#: comments.php:57
+#@ paolettibibite
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:38
+#: comments.php:58
+#@ paolettibibite
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:68
+#@ paolettibibite
+msgid "Comments are closed."
+msgstr ""
+
+#: content-page.php:18
+#: content-single.php:21
+#: content.php:27
+#: image.php:60
+#@ paolettibibite
+msgid "Pages:"
+msgstr ""
+
+#: content-page.php:23
+#: content-single.php:62
+#: content.php:61
+#: image.php:34
+#: image.php:78
+#: inc/template-tags.php:71
+#: inc/template-tags.php:90
+#@ paolettibibite
+msgid "Edit"
+msgstr ""
+
+#: content-prodotto.php:50
+#@ paolettibibite
+msgid "Calorie"
+msgstr ""
+
+#: content-prodotto.php:54
+#@ paolettibibite
+msgid "Zuccheri"
+msgstr ""
+
+#: content-prodotto.php:58
+#@ paolettibibite
+msgid "Carboidrati"
+msgstr ""
+
+#: content-prodotto.php:62
+#@ paolettibibite
+msgid "Grassi"
+msgstr ""
+
+#: content-prodotto.php:66
+#@ paolettibibite
+msgid "valori per 100 ml di prodotto"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: content-single.php:30
+#: content-single.php:33
+#: content.php:38
+#: content.php:48
+#: functions.php:96
+#: functions.php:99
+#@ paolettibibite
+msgid ", "
+msgstr ""
+
+#: content-single.php:38
+#, php-format
+#@ paolettibibite
+msgid "This entry was tagged %2$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Tags %2$s. Salva il <a href=\"%3$s\" title=\"Link a %4$s\" rel=\"bookmark\">permalink</a>."
+
+#: content-single.php:40
+#, php-format
+#@ paolettibibite
+msgid "Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: content-single.php:46
+#, php-format
+#@ paolettibibite
+msgid "This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Articolo pubblicato in %1$s e taggato come %2$s. Salva il <a href=\"%3$s\" title=\"Link a %4$s\" rel=\"bookmark\">permalink</a>."
+
+#: content-single.php:48
+#, php-format
+#@ paolettibibite
+msgid "This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Articolo pubblicato in %1$s e taggato come %2$s. Salva il <a href=\"%3$s\" title=\"Link a %4$s\" rel=\"bookmark\">permalink</a>."
+
+#: content.php:24
+#@ paolettibibite
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: content.php:42
+#, php-format
+#@ paolettibibite
+msgid "Posted in %1$s"
+msgstr ""
+
+#: content.php:52
+#, php-format
+#@ paolettibibite
+msgid "Tagged %1$s"
+msgstr ""
+
+#: content.php:58
+#@ paolettibibite
+msgid "Leave a comment"
+msgstr ""
+
+#: content.php:58
+#@ paolettibibite
+msgid "1 Comment"
+msgstr ""
+
+#: content.php:58
+#@ paolettibibite
+msgid "% Comments"
+msgstr ""
+
+#: footer.php:16
+#@ paolettibibite
+msgid "A Semantic Personal Publishing Platform"
+msgstr ""
+
+#: footer.php:16
+#, php-format
+#@ paolettibibite
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: footer.php:18
+#, php-format
+#@ paolettibibite
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: functions.php:48
+#@ paolettibibite
+msgid "Menu Home"
+msgstr ""
+
+#: functions.php:49
+#@ paolettibibite
+msgid "Menu pagine interne"
+msgstr ""
+
+#: functions.php:50
+#@ paolettibibite
+msgid "Social link & e-commerce"
+msgstr ""
+
+#: functions.php:74
+#@ paolettibibite
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:110
+#: inc/template-tags.php:182
+#, php-format
+#@ paolettibibite
+msgid "View all posts by %s"
+msgstr ""
+
+#: functions.php:116
+#, php-format
+#@ paolettibibite
+msgid "This entry was posted in %1$s and tagged %2$s on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr "Articolo pubblicato in Tags %1$s e taggato come %2$s, il %3$s<span class=\"by-author\"> da %4$s</span>."
+
+#: functions.php:118
+#, php-format
+#@ paolettibibite
+msgid "This entry was posted in %1$s on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr "Articolo pubblicato in %1$s e taggato come %2$s <span class=\"by-author\"> da %4$s</span>."
+
+#: functions.php:120
+#, php-format
+#@ paolettibibite
+msgid "This entry was posted on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr "Articolo taggato come %2$s, <span class=\"by-author\"> da %4$s</span>."
+
+#: image.php:23
+#, php-format
+#@ paolettibibite
+msgid "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
+msgstr ""
+
+#: image.php:39
+#@ paolettibibite
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr ""
+
+#: image.php:40
+#@ paolettibibite
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: image.php:69
+#, php-format
+#@ paolettibibite
+msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr ""
+
+#: image.php:71
+#, php-format
+#@ paolettibibite
+msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr ""
+
+#: image.php:73
+#@ paolettibibite
+msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
+msgstr ""
+
+#: image.php:75
+#@ paolettibibite
+msgid "Both comments and trackbacks are currently closed."
+msgstr ""
+
+#: inc/bp_cocktail.php:30
+#: inc/bp_cocktail.php:31
+#@ bp
+msgid "Scheda Cocktail"
+msgstr ""
+
+#: inc/bp_cocktail.php:32
+#@ bp
+msgid "Aggiungi Cocktail"
+msgstr ""
+
+#: inc/bp_cocktail.php:33
+#: inc/bp_cocktail.php:35
+#@ bp
+msgid "Nuovo Cocktail"
+msgstr ""
+
+#: inc/bp_cocktail.php:34
+#@ bp
+msgid "Modifica Cocktail"
+msgstr ""
+
+#: inc/bp_cocktail.php:36
+#@ bp
+msgid "Elenco Cocktails"
+msgstr ""
+
+#: inc/bp_cocktail.php:37
+#@ bp
+msgid "Visualizza Cocktails"
+msgstr ""
+
+#: inc/bp_cocktail.php:38
+#@ bp
+msgid "Cerca Cocktails"
+msgstr ""
+
+#: inc/bp_cocktail.php:39
+#@ bp
+msgid "Cocktail non trovato"
+msgstr ""
+
+#: inc/bp_cocktail.php:40
+#@ bp
+msgid "Cocktail non trovato nel cestino"
+msgstr ""
+
+#: inc/bp_cocktail.php:71
+#@ bp
+msgid "Scheda cocktail"
+msgstr ""
+
+#: inc/bp_cocktail.php:90
+#@ bp
+msgid "Autore del cocktail: "
+msgstr ""
+
+#: inc/bp_cocktail.php:95
+#@ bp
+msgid "Locale del cocktail: "
+msgstr ""
+
+#: inc/bp_prodotti.php:35
+#@ bp
+msgid "Scheda Prodotti"
+msgstr ""
+
+#: inc/bp_prodotti.php:36
+#: inc/bp_prodotti.php:76
+#@ bp
+msgid "Scheda Prodotto"
+msgstr ""
+
+#: inc/bp_prodotti.php:37
+#@ bp
+msgid "Aggiungi Prodotto"
+msgstr ""
+
+#: inc/bp_prodotti.php:38
+#: inc/bp_prodotti.php:40
+#@ bp
+msgid "Nuovo Prodotto"
+msgstr ""
+
+#: inc/bp_prodotti.php:39
+#@ bp
+msgid "Modifica Prodotto"
+msgstr ""
+
+#: inc/bp_prodotti.php:41
+#@ bp
+msgid "Elenco Prodotti"
+msgstr ""
+
+#: inc/bp_prodotti.php:42
+#@ bp
+msgid "Visualizza Prodotto"
+msgstr ""
+
+#: inc/bp_prodotti.php:43
+#@ bp
+msgid "Cerca Prodotti"
+msgstr ""
+
+#: inc/bp_prodotti.php:44
+#@ bp
+msgid "Prodotto non trovato"
+msgstr ""
+
+#: inc/bp_prodotti.php:45
+#@ bp
+msgid "Prodotto non trovato nel cestino"
+msgstr ""
+
+#: inc/bp_prodotti.php:123
+#@ bp
+msgid "Link pagina shop: "
+msgstr ""
+
+#: inc/bp_prodotti.php:129
+#@ bp
+msgid "Valore nutrizionali: "
+msgstr ""
+
+#: inc/bp_prodotti.php:134
+#@ bp
+msgid "Calorie: "
+msgstr ""
+
+#: inc/bp_prodotti.php:139
+#@ bp
+msgid "Zuccheri: "
+msgstr ""
+
+#: inc/bp_prodotti.php:144
+#@ bp
+msgid "Carboidrati: "
+msgstr ""
+
+#: inc/bp_prodotti.php:149
+#@ bp
+msgid "Grassi: "
+msgstr ""
+
+#: inc/bp_prodotti.php:154
+#@ bp
+msgid "Galleria: "
+msgstr ""
+
+#: inc/extras.php:66
+#, php-format
+#@ paolettibibite
+msgid "Page %s"
+msgstr ""
+
+#: inc/template-tags.php:34
+#@ paolettibibite
+msgid "Post navigation"
+msgstr ""
+
+#: inc/template-tags.php:38
+#@ paolettibibite
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr ""
+
+#: inc/template-tags.php:39
+#@ paolettibibite
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr ""
+
+#: inc/template-tags.php:44
+#@ paolettibibite
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: inc/template-tags.php:48
+#@ paolettibibite
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/template-tags.php:71
+#@ paolettibibite
+msgid "Pingback:"
+msgstr ""
+
+#: inc/template-tags.php:81
+#, php-format
+#@ paolettibibite
+msgid "%s <span class=\"says\">says:</span>"
+msgstr ""
+
+#: inc/template-tags.php:87
+#, php-format
+#@ paolettibibite
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/template-tags.php:94
+#@ paolettibibite
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/template-tags.php:177
+#, php-format
+#@ paolettibibite
+msgid "Posted on <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\">%3$s</a><span class=\"byline\"> by <span class=\"author vcard\"><a class=\"url fn n\" href=\"%4$s\" title=\"%5$s\" rel=\"author\">%6$s</a></span></span>"
+msgstr ""
+
+#: no-results.php:13
+#@ paolettibibite
+msgid "Nothing Found"
+msgstr ""
+
+#: no-results.php:19
+#, php-format
+#@ paolettibibite
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: no-results.php:23
+#@ paolettibibite
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: no-results.php:28
+#@ paolettibibite
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: search.php:16
+#, php-format
+#@ paolettibibite
+msgid "Search Results for: %s"
+msgstr ""
+
+#: searchform.php:9
+#@ paolettibibite
+msgctxt "assistive text"
+msgid "Search"
+msgstr ""
+
+#: searchform.php:10
+#@ paolettibibite
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr ""
+
+#: searchform.php:11
+#@ paolettibibite
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: sidebar.php:24
+#@ paolettibibite
+msgid "Meta"
+msgstr ""
+
