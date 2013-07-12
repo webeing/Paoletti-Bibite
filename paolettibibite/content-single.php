@@ -12,6 +12,13 @@
 		<div class="entry-meta">
 			<?php paoletti_entry_meta(); ?>
 		</div><!-- .entry-meta -->
+
+    <?php
+        if ( has_post_thumbnail() ) {
+            ?>
+            <?php the_post_thumbnail('paoletti-single'); ?>
+     <?php } ?>
+
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">

@@ -109,7 +109,8 @@ FB;
     }
     return $items;
 }
-add_filter( 'wp_nav_menu_items', 'paoletti_add_facebook_like', 10, 2 );
+//Activate for Facebook
+//add_filter( 'wp_nav_menu_items', 'paoletti_add_facebook_like', 10, 2 );
 
 /**
  * Add Social Script to start buttons
@@ -126,7 +127,8 @@ function paoletti_add_social_scripts(){
     }(document, 'script', 'facebook-jssdk'));</script>
     <?php
 }
-add_action('paolettibibite_copy','paoletti_add_social_scripts');
+//Activate for Facebook
+//add_action('paolettibibite_copy','paoletti_add_social_scripts');
 
 
 /**
@@ -154,7 +156,7 @@ if ( ! function_exists( 'paoletti_entry_meta' ) ) :
             esc_html( get_the_date() )
         );
 
-        $author = sprintf( '<span class="author vcard"><a class="url fn n" href="%1$s" title="%2$s" rel="author">%3$s</a></span>',
+        $author = sprintf( '<span class="author vcard">%3$s</span>',
             esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ),
             esc_attr( sprintf( __( 'View all posts by %s', 'paolettibibite' ), get_the_author() ) ),
             get_the_author()

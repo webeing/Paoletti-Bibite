@@ -16,6 +16,6 @@
                     the_post_thumbnail();
                 }
                 ?>
-                <span class="title">Scheda prodotto</span>
+                <span class="title"></span>
             </a>
         </li>

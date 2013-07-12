@@ -31,7 +31,7 @@
     </div>
 
 
-    <div class="entry-content">
+    <div class="entry-content clearfix">
         <?php the_excerpt(); ?>
         <a class="more" href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">Leggi tutto &raquo;</a>
     </div>

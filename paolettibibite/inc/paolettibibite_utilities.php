@@ -41,16 +41,16 @@ class BPUtilities{
     /**
      * loop for query blog, prodotti, home
      */
-/*
+
     public function paolettibibite_loop($args, $template){
 
         $query = new WP_Query( $args );
         while ( $query->have_posts() ) : $query->the_post();
 
-          //  get_template_part('content', $template);
+            get_template_part('content', $template);
         endwhile;
         wp_reset_postdata();
 
     }
-*/
+
 }

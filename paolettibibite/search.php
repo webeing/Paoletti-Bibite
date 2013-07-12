@@ -1,38 +1,45 @@
 <?php
 /**
- * The template for displaying Search Results pages.
+ * The template for displaying Search page
+ *
+ * Learn more: http://codex.wordpress.org/Template_Hierarchy
  *
  * @package paolettibibite
  */
 
 get_header(); ?>
 
-	<section id="primary" class="content-area">
-		<div id="content" class="site-content" role="main">
+<?php if ( have_posts() ) : ?>
+<section id="blog" class="slide">
 
-		<?php if ( have_posts() ) : ?>
+    <?php /* Start the Loop */ ?>
+    <div id="news-list" class="container clearfix">
+        <div class="grid_5 omega">
+            <h2 class="title-slide">
 
-			<header class="page-header">
-				<h1 class="page-title"><?php printf( __( 'Search Results for: %s', 'paolettibibite' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
-			</header><!-- .page-header -->
+                <?php printf( __( 'Ricerca per: %s', 'paolettibibite' ), '<span>' . get_search_query() . '</span>' ); ?>
 
-			<?php /* Start the Loop */ ?>
-			<?php while ( have_posts() ) : the_post(); ?>
+            </h2>
+        </div>
+        <div class="grid_9">
+            <?php while ( have_posts() ) : the_post(); ?>
 
-				<?php get_template_part( 'content', 'search' ); ?>
 
-			<?php endwhile; ?>
+                <?php get_template_part( 'content', 'blog' ); ?>
 
-			<?php paolettibibite_content_nav( 'nav-below' ); ?>
 
-		<?php else : ?>
 
-			<?php get_template_part( 'no-results', 'search' ); ?>
+            <?php endwhile; ?>
+        </div>
+        <?php  echo wp_pagenavi(); ?>
+    </div>
 
-		<?php endif; ?>
+</section> <!--#section-->
+<?php else : ?>
 
-		</div><!-- #content -->
-	</section><!-- #primary -->
+    <?php get_template_part( 'no-results', 'archive' ); ?>
 
-<?php get_sidebar(); ?>
+<?php endif; ?>
+
+
 <?php get_footer(); ?>

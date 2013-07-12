@@ -7,27 +7,27 @@
  * @package paolettibibite
  */
 ?>
+<section class="slide page" id="page">
+    <div class="bubble">
+        <div class="container clearfix">
 
-<article id="post-0" class="post no-results not-found">
-	<header class="entry-header">
-		<h1 class="entry-title"><?php _e( 'Nothing Found', 'paolettibibite' ); ?></h1>
-	</header><!-- .entry-header -->
+            <div class="grid_9">
+                <h2 class="title-slide">
 
-	<div class="entry-content">
-		<?php if ( is_home() && current_user_can( 'publish_posts' ) ) : ?>
 
-			<p><?php printf( __( 'Ready to publish your first post? <a href="%1$s">Get started here</a>.', 'paolettibibite' ), esc_url( admin_url( 'post-new.php' ) ) ); ?></p>
+                    <?php if ( is_search() ) : ?>
 
-		<?php elseif ( is_search() ) : ?>
+                        <?php _e( 'Spiacenti, non ci sono risultati per questa ricerca. Per favore riprovare con un altro termine.', 'paolettibibite' ); ?>
 
-			<p><?php _e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'paolettibibite' ); ?></p>
-			<?php get_search_form(); ?>
 
-		<?php else : ?>
+                    <?php else : ?>
 
-			<p><?php _e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'paolettibibite' ); ?></p>
-			<?php get_search_form(); ?>
+                        <?php _e( 'Sembra che non riusciamo a trovare quello che stai cercando.', 'paolettibibite' ); ?>
 
-		<?php endif; ?>
-	</div><!-- .entry-content -->
-</article><!-- #post-0 .post .no-results .not-found -->
+                    <?php endif; ?>
+                </h2>
+            </div>
+            <?php get_sidebar(); ?>
+        </div><!-- .container -->
+    </div><!-- .bubble-->
+</section><!-- .page -->
