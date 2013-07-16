@@ -94,6 +94,15 @@ body .action-yellow{
 body .action{
     cursor: pointer!important;
 }
+body .inner {
+    padding: 180px 0;
+}
+body .screen-reader-text{
+    text-align: center;
+}
+body .nav-next {
+    text-align: right;
+}
 .more{
     background: none repeat scroll 0 0 #E1071A;
     border-radius: 10px 0 10px 0;
@@ -629,18 +638,30 @@ body .bx-viewport {
     z-index: 20;
     /*display: none;*/
     transform: scale(0);
+    -moz-transform: scale(0);
+    -o-transform: scale(0);
+    -webkit-transform: scale(0);
     transition: transform 0.2s ease 0s;
 }
 .item-product .action:hover .title{
     transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
 }
 .item-product img{
     transform: scale(0.85);
+    -moz-transform: scale(0.85);
+    -o-transform: scale(0.85);
+    -webkit-transform: scale(0.85);
     transition: transform 0.2s ease 0s;
     height: auto;
 }
 .item-product .action:hover img{
     transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -webkit-transform: scale(1);
 }
 
 /**
@@ -706,17 +727,17 @@ body #azienda .center {
 #storia .obj2{
     background-image: url("../images/storia-etichetta01.png");
     background-repeat: no-repeat;
-    background-size: 70% auto;
+    /*background-size: 70% auto;*/
 }
 #storia .obj3{
     background-image: url("../images/storia-etichetta02.png");
     background-repeat: no-repeat;
-    background-size: 70% auto;
+    /*background-size: 70% auto;*/
 }
 #storia .obj1{
     background-image: url("../images/storia-etichetta03.png");
     background-repeat: no-repeat;
-    background-size: 70% auto;
+    /*background-size: 70% auto;*/
 }
 
 #storia .grid_5{
@@ -738,6 +759,7 @@ body #azienda .center {
 }
 .category-blog #blog {
     background: #01A11B url("../images/blog+tina.jpg") no-repeat;
+    padding: 200px 0 200px;
 }
 #blog .bubble {
     background-image: url("../images/blog-gloss.png");
@@ -760,7 +782,7 @@ body #azienda .center {
 #blog .container .grid_4{
     width: 0!important;
 }
-#blog .title-slide{
+#blog .title-slide, #blog .title-slide a{
     color: #fff;
 }
 .post-news{
@@ -1205,7 +1227,7 @@ body .ui-icon, .ui-widget-content .ui-icon{
 .page{
     background-image: url("../images/contatti.png");
     background-repeat: no-repeat;
-    background-color: #FFB900;
+    background-color: #FFCB00;
     background-size: 100% auto;
 }
 .page .bubble{
@@ -1444,12 +1466,12 @@ gallery-section .grid_3 {
 }
 .fancybox {
     /*border: 5px solid #FFFFFF;
-    box-shadow: 0 0 4px #000000;*/
+    box-shadow: 0 0 4px #000000;
+    max-height: 180px;
+    overflow: hidden !important;*/
     display: block;
     height: 100%;
     margin: 0 !important;
-    max-height: 180px;
-    overflow: hidden !important;
     padding: 0 !important;
 }
 
@@ -1469,6 +1491,9 @@ gallery-section .grid_3 {
  *- - - - - - - - - - - - - - - - - - - - - - - - - - */
 @media screen and (max-width: 1024px) {
 
+    #loader{
+        display: none;
+    }
     #logo {
         width: 100%;
         text-align: center;
@@ -1505,6 +1530,36 @@ gallery-section .grid_3 {
     .slide1 h2 {
         line-height: 1em;
     }
+    #contatti .grid_5 .address, #contatti .grid_5 .map{
+        width: 100%!important;
+        float: none;
+    }
+    iframe{
+        clear: both;
+        width: 100%!important;
+        max-width: 100%!important;
+    }
+    .closing{
+        position: relative;
+    }
+    #nav, #social-nav{
+        display: none;
+    }
+    .slide .grid_4,
+    .slide .grid_5,
+    .slide .grid_3{
+        width: 100%!important;
+    }
+    #blog #news-list .grid_9{
+        width: 100%!important;
+    }
+    body .gallery-section .gallery-item{
+        width: 28%!important;
+        margin: 10px 1%!important;
+    }
+    body .gallery-section .gallery-item img{
+        width: 100%!important;
+    }
 }
 
 /** - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -1512,6 +1567,9 @@ gallery-section .grid_3 {
  *- - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 @media screen and (max-width: 480px) {
+    #loader{
+        display: none;
+    }
     #logo {
         width: 100%;
         text-align: center;
@@ -1542,5 +1600,66 @@ gallery-section .grid_3 {
     }
     .slide1 h2 {
         line-height: 1em;
+    }
+    .slide .grid_4,
+    .slide .grid_5,
+    .slide .grid_3,
+    #storia .grid_5{
+        width: 100%!important;
+    }
+    #contatti .grid_5 .address, #contatti .grid_5 .map{
+        width: 100%!important;
+        float: none;
+    }
+    iframe{
+        clear: both;
+        width: 100%!important;
+        max-width: 100%!important;
+    }
+    .closing{
+        position: relative;
+    }
+    #nav, #social-nav{
+        display: none;
+    }
+    #blog #news-list .grid_9{
+        width: 100%!important;
+    }
+    body .obj1,
+    body .obj2,
+    body .obj3,
+    body .obj4{
+        display: none!important;
+    }
+    html .home .slide,
+    html .home #home,
+    html .home #tina,
+    html .home #prodotti,
+    html .home #azienda,
+    html .home #storia,
+    html .home #blog,
+    html .home #cocktails,
+    html .home #contatti{
+        height: inherit!important;
+        height: auto!important;
+        max-height: inherit!important;
+        padding: 60px 0!important;
+    }
+    body .gallery .gallery-item {
+        float: none!important;
+        margin: 5px auto!important;
+        text-align: center;
+        width: 100%!important;
+    }
+    body .gallery .gallery-item img{
+        width: 70%!important;
+        height: auto;
+    }
+    body .gallery-section .gallery-item{
+        width: 28%!important;
+        margin: 10px 1%!important;
+    }
+    body .gallery-section .gallery-item img{
+        width: 100%!important;
     }
 }

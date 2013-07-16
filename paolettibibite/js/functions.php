@@ -224,14 +224,13 @@ function paolettibibite_custom_scripts() {
     wp_enqueue_script( 'paolettibibite-parallax', get_template_directory_uri() . '/js/jquery.parallax-1.1.3.js', array('jquery'), null, true );
     wp_enqueue_script( 'paolettibibite-localscroll', get_template_directory_uri() . '/js/jquery.localscroll-1.2.7-min.js', array('jquery'), null, true );
     wp_enqueue_script( 'paolettibibite-scrollTo', get_template_directory_uri() . '/js/jquery.scrollTo-1.4.6-min.js', array('jquery'), null, true );
+
     wp_enqueue_script( 'paolettibibite-bxslider', get_template_directory_uri() . '/js/jquery.bxslider.min.js', array('jquery', 'jquery-ui-core'), null, true );
     wp_enqueue_script( 'paolettibibite-easing', get_template_directory_uri() . '/js/jquery.easing.1.3.js', array('jquery', 'jquery-ui-core'), null, true );
 
     wp_enqueue_script( 'paoletti-script', get_template_directory_uri() . '/js/paolettibibite-script.js', array('jquery', 'jquery-ui-core', 'jquery-ui-dialog', 'paolettibibite-parallax', 'paolettibibite-localscroll', 'paolettibibite-scrollTo', 'paolettibibite-bxslider', 'paolettibibite-easing'), null, true );
 
 }
-
-
 /**
  * Implement the Custom Header feature.
  */

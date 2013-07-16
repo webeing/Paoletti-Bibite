@@ -6,7 +6,7 @@
  */
 
 get_header(); ?>
-<section id="post-<?php the_slug(); ?>" class="slide page">
+<section id="post-<?php the_slug(); ?>" class="inner page">
     <div class="bubble">
         <div class="container clearfix">
             <?php while ( have_posts() ) : the_post(); ?>

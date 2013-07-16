@@ -10,7 +10,7 @@
 get_header(); ?>
 
 <?php if ( have_posts() ) : ?>
-    <section id="blog" class="">
+    <section id="blog" class="inner">
 
 			<?php /* Start the Loop */ ?>
             <div id="news-list" class="container clearfix">

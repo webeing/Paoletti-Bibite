@@ -38,8 +38,8 @@ while ( $home_query->have_posts() ) : $home_query->the_post();
             <div class="obj3"></div>
             <div class="obj4"></div>
             <div class="container clearfix">
-                <div class="grid_4"></div>
-                <div class="grid_5 omega">
+                <div class="grid_4 omega"></div>
+                <div class="grid_5">
                     <h2 class="title-slide">
                             <?php if($parent_slug == "blog"){ ?>
                                 <?php $category_slug = get_category_by_slug('blog');
